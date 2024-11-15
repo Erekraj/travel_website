@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Travel & Tourism</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .services-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 50px 20px;
+        }
+
+        .service-card {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .service-card a {
+            text-decoration: none;
+            background-color: #f1c40f;
+            color: #333;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        .service-card a:hover {
+            background-color: #e09e0f;
+        }
+
+        /* Hover effect for the service cards */
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .service-card {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .service-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Our Travel & Tourism Services</h1>
+    <p>Explore the world with our carefully curated services to make your journey unforgettable!</p>
+</header>
+
+<!-- Services Section -->
+<section class="services-section">
+    <div class="service-card">
+        <img src="./itenary" alt="Itinerary Planning">
+        <h3>Personalized Itinerary Planning</h3>
+        <p>Tailored travel plans to match your interests, budget, and timeline.</p>
+        <a href="#">Learn More</a>
+    </div>
+
+    <div class="service-card">
+        <img src="./flight" alt="Flight & Accommodation">
+        <h3>Flight & Accommodation Booking</h3>
+        <p>Book flights, hotels, and unique stays all in one place with the best rates.</p>
+        <a href="#">Book Now</a>
+    </div>
+
+    <div class="service-card">
+        <img src="./now" alt="Local Tours">
+        <h3>Local Tours & Experiences</h3>
+        <p>Access curated local tours and activities, from cultural to adventure-filled.</p>
+        <a href="#">Discover Tours</a>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Your Travel Company. All Rights Reserved.</p>
+</footer>
+<center><a href="./index.html" class="back-button"><u>Back to Home</u></a></center>
+</body>
+</html>

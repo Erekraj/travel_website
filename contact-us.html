@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Travel & Tourism</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-form,
+        .contact-info {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 48%;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            padding: 15px 25px;
+            background-color: #f1c40f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #e09e0f;
+        }
+
+        .contact-info h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .map {
+            width: 100%;
+            height: 300px;
+            background-color: #ddd;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .contact-form,
+            .contact-info {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you. Feel free to reach out to us for any travel inquiries!</p>
+</header>
+
+<!-- Contact Section -->
+<section class="contact-container">
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone (Optional)">
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+        <h2>Our Location</h2>
+        <p><strong>Office Address:</strong> 123 Travel Avenue, New Delhi, India</p>
+        <p><strong>Email:</strong> simran@travel.com</p>
+        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+
+        <!-- Google Map (Placeholder) -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <p style="text-align: center; line-height: 300px; color: #666;"></p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Your Travel Company. All Rights Reserved.</p>
+</footer>
+<center><a href="./index.html" class="back-button"><u>Back to Home</u></a></center>
+</body>
+</html>
